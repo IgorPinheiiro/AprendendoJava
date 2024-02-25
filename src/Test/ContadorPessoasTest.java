@@ -19,6 +19,7 @@ public class ContadorPessoasTest {
             System.out.println("2. Remove uma Pessoa");
             System.out.println("3. Limpa o total");
             System.out.println("4. Mostra a quantidade total");
+            System.out.println("5. Sair do programa");
 
             String StrUserInput = sc.next();
 
@@ -38,6 +39,12 @@ public class ContadorPessoasTest {
             }
             else if(intUserInput == 4){
                 Count.mostrarTotalPessoas();
+            }
+            else if( intUserInput == 5){
+                    loopRodando = false;
+            }
+            else{
+                loopRodando = false;
             }
 
         }
