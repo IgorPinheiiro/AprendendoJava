@@ -1,4 +1,4 @@
-package Classes;
+package Churrasco;
 
 public class Pessoa {
     public String nome;
