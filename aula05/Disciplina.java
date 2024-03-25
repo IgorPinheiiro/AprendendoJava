@@ -3,10 +3,12 @@ package aula05;
 public class Disciplina {
 	private String nome, cod;
 	private Tipo tipo;
+
 	public Disciplina(String nome, String cod, Tipo tipo) {
 		this.nome = nome;
 		this.cod = cod;
 		this.tipo = tipo;
+
 	}
 	
 	public void mostrar() {
@@ -27,10 +29,12 @@ public class Disciplina {
 	public boolean isLingua() {
 		return tipo == Tipo.LINGUAS;
 	}
-	
-	public void recebeDisciplina(this.nome) {
-		
-		
+
+	public String getnome() {
+		return nome;
 	}
+
+
 	
 }
+
